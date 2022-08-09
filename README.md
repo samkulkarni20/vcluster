@@ -19,6 +19,7 @@ Create fully functional virtual Kubernetes clusters - Each vcluster runs inside 
 - **Strict isolation**: complete separate Kubernetes control plane and access point for each vcluster while still being able to share certain services of the underlying host cluster
 - **Cluster Wide Permissions**: allow users to install apps which require cluster-wide permissions while being limited to actually just one namespace within the host cluster
 - **Great for Testing**: allow you to test different Kubernetes versions inside a single host cluster which may have a different version than the virtual clusters
+- **Sample change**: This is a sample change, just to see the form presented while raising a PR to upstream repo.
 
 Learn more on [www.vcluster.com](https://vcluster.com).
 
